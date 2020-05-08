@@ -1,0 +1,12 @@
+00007c00 a boot0
+00007c00 T start
+00007c41 t fail
+00007c4c t loop
+00007c4c t print_string
+00007c55 t exitloop
+00007c56 t STARTUP_MSG
+00007c68 t LOAD_FAIL_MSG
+00007c86 T __bss_start
+00007c86 T _edata
+00007c88 T _end
+00007e00 a boot1

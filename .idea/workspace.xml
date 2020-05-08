@@ -1,0 +1,789 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="false">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e10be4e0-3023-40ed-aa69-3a2f18ac6195" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="PTQueueInit.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kern/thread/PTQueueInit/PTQueueInit.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1320">
+              <caret line="88" selection-start-line="88" selection-end-line="88" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PThread.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kern/thread/PThread/PThread.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="735">
+              <caret line="49" selection-start-line="49" selection-end-line="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PTCBInit.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kern/thread/PTCBInit/PTCBInit.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TSyscall.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kern/trap/TSyscall/TSyscall.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1305">
+              <caret line="87" column="6" selection-start-line="87" selection-start-column="6" selection-end-line="87" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TSyscallArg.c" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/kern/trap/TSyscallArg/TSyscallArg.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SECOND">
+              <first_editor relative-caret-position="210">
+                <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Makefile.inc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kern/trap/Makefile.inc">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="syscall.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user/include/syscall.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TDispatch.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kern/trap/TDispatch/TDispatch.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TTrapHandler.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kern/trap/TTrapHandler/TTrapHandler.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2550">
+              <caret line="170" column="5" selection-start-line="170" selection-start-column="5" selection-end-line="170" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>sys_puts</find>
+      <find>Xsyscall</find>
+      <find>interrupt_handler</find>
+      <find>trapasm</find>
+      <find>TRAPHANDLER_NOEC</find>
+      <find>idt.</find>
+      <find>TRAPHANDLER</find>
+      <find>idt.s</find>
+      <find>idtr</find>
+      <find>guest_seg_t</find>
+      <find>seg</find>
+      <find>seg_init</find>
+      <find>SEGDESC32</find>
+      <find>memzero</find>
+      <find>SETGATE</find>
+      <find>tf_t</find>
+      <find>init()</find>
+      <find>TODO</find>
+      <find>kctx_switch</find>
+      <find>pgflt_handler</find>
+      <find>trap</find>
+      <find>kctx_new</find>
+      <find>thread_spawn</find>
+      <find>T_SYSCALL</find>
+      <find>proc_create</find>
+      <find>ping i</find>
+      <find>spawn</find>
+      <find>the new value at address</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/kern/lib/syscall.h" />
+        <option value="$PROJECT_DIR$/kern/thread/PTCBInit/PTCBInit.c" />
+        <option value="$PROJECT_DIR$/kern/thread/PTQueueInit/test.c" />
+        <option value="$PROJECT_DIR$/kern/proc/PProc/import.h" />
+        <option value="$PROJECT_DIR$/kern/trap/TDispatch/TDispatch.c" />
+        <option value="$PROJECT_DIR$/kern/lib/monitor.c" />
+        <option value="$PROJECT_DIR$/kern/lib/trap.c" />
+        <option value="$PROJECT_DIR$/user/lib/fake_syscall.c" />
+        <option value="$PROJECT_DIR$/kern/trap/TSyscall/TSyscall.c" />
+        <option value="$PROJECT_DIR$/kern/thread/PKCtxIntro/cswitch.S" />
+        <option value="$PROJECT_DIR$/kern/trap/TTrapHandler/TTrapHandler.c" />
+        <option value="$PROJECT_DIR$/kern/thread/PTQueueInit/PTQueueInit.c" />
+        <option value="$PROJECT_DIR$/user/include/syscall.h" />
+        <option value="$PROJECT_DIR$/kern/pmm/MATInit/MATInit.c" />
+        <option value="$PROJECT_DIR$/kern/dev/idt.S" />
+        <option value="$PROJECT_DIR$/kern/thread/PKCtxNew/PKCtxNew.c" />
+        <option value="$PROJECT_DIR$/kern/proc/PProc/PProc.c" />
+        <option value="$PROJECT_DIR$/kern/thread/PThread/PThread.c" />
+        <option value="$PROJECT_DIR$/kern/trap/TSyscallArg/TSyscallArg.c" />
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="91" />
+    <option name="width" value="1053" />
+    <option name="height" value="553" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="os-s20-BumbleFlash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="os-s20-BumbleFlash" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="os-s20-BumbleFlash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="os-s20-BumbleFlash" type="462c0819:PsiDirectoryNode" />
+              <item name="boot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="os-s20-BumbleFlash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="os-s20-BumbleFlash" type="462c0819:PsiDirectoryNode" />
+              <item name="kern" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="os-s20-BumbleFlash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="os-s20-BumbleFlash" type="462c0819:PsiDirectoryNode" />
+              <item name="kern" type="462c0819:PsiDirectoryNode" />
+              <item name="dev" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="os-s20-BumbleFlash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="os-s20-BumbleFlash" type="462c0819:PsiDirectoryNode" />
+              <item name="kern" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="os-s20-BumbleFlash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="os-s20-BumbleFlash" type="462c0819:PsiDirectoryNode" />
+              <item name="kern" type="462c0819:PsiDirectoryNode" />
+              <item name="pmm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="os-s20-BumbleFlash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="os-s20-BumbleFlash" type="462c0819:PsiDirectoryNode" />
+              <item name="kern" type="462c0819:PsiDirectoryNode" />
+              <item name="proc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="os-s20-BumbleFlash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="os-s20-BumbleFlash" type="462c0819:PsiDirectoryNode" />
+              <item name="kern" type="462c0819:PsiDirectoryNode" />
+              <item name="proc" type="462c0819:PsiDirectoryNode" />
+              <item name="PProc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="os-s20-BumbleFlash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="os-s20-BumbleFlash" type="462c0819:PsiDirectoryNode" />
+              <item name="kern" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="os-s20-BumbleFlash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="os-s20-BumbleFlash" type="462c0819:PsiDirectoryNode" />
+              <item name="kern" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
+              <item name="PKCtxIntro" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="os-s20-BumbleFlash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="os-s20-BumbleFlash" type="462c0819:PsiDirectoryNode" />
+              <item name="kern" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
+              <item name="PKCtxNew" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="os-s20-BumbleFlash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="os-s20-BumbleFlash" type="462c0819:PsiDirectoryNode" />
+              <item name="kern" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
+              <item name="PTCBInit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="os-s20-BumbleFlash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="os-s20-BumbleFlash" type="462c0819:PsiDirectoryNode" />
+              <item name="kern" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
+              <item name="PThread" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="os-s20-BumbleFlash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="os-s20-BumbleFlash" type="462c0819:PsiDirectoryNode" />
+              <item name="kern" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
+              <item name="PTQueueInit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="os-s20-BumbleFlash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="os-s20-BumbleFlash" type="462c0819:PsiDirectoryNode" />
+              <item name="kern" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
+              <item name="PTQueueIntro" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="os-s20-BumbleFlash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="os-s20-BumbleFlash" type="462c0819:PsiDirectoryNode" />
+              <item name="kern" type="462c0819:PsiDirectoryNode" />
+              <item name="trap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="os-s20-BumbleFlash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="os-s20-BumbleFlash" type="462c0819:PsiDirectoryNode" />
+              <item name="kern" type="462c0819:PsiDirectoryNode" />
+              <item name="trap" type="462c0819:PsiDirectoryNode" />
+              <item name="TDispatch" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="os-s20-BumbleFlash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="os-s20-BumbleFlash" type="462c0819:PsiDirectoryNode" />
+              <item name="kern" type="462c0819:PsiDirectoryNode" />
+              <item name="trap" type="462c0819:PsiDirectoryNode" />
+              <item name="TSyscall" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="os-s20-BumbleFlash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="os-s20-BumbleFlash" type="462c0819:PsiDirectoryNode" />
+              <item name="kern" type="462c0819:PsiDirectoryNode" />
+              <item name="trap" type="462c0819:PsiDirectoryNode" />
+              <item name="TSyscallArg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="os-s20-BumbleFlash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="os-s20-BumbleFlash" type="462c0819:PsiDirectoryNode" />
+              <item name="kern" type="462c0819:PsiDirectoryNode" />
+              <item name="trap" type="462c0819:PsiDirectoryNode" />
+              <item name="TTrapHandler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="os-s20-BumbleFlash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="os-s20-BumbleFlash" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="os-s20-BumbleFlash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="os-s20-BumbleFlash" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="os-s20-BumbleFlash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="os-s20-BumbleFlash" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="os-s20-BumbleFlash" type="b2602c69:ProjectViewProjectNode" />
+              <item name="os-s20-BumbleFlash" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="pingpong" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e10be4e0-3023-40ed-aa69-3a2f18ac6195" name="Default" comment="" />
+      <created>1586305102682</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586305102682</updated>
+      <workItem from="1586305104141" duration="7536000" />
+      <workItem from="1586372199572" duration="6629000" />
+      <workItem from="1586398736150" duration="2229000" />
+      <workItem from="1586454360853" duration="21014000" />
+      <workItem from="1586551530310" duration="16000" />
+      <workItem from="1586569068204" duration="637000" />
+      <workItem from="1586629390243" duration="563000" />
+      <workItem from="1586630810371" duration="594000" />
+      <workItem from="1586636642034" duration="1475000" />
+      <workItem from="1586672523816" duration="1664000" />
+      <workItem from="1587148870989" duration="826000" />
+      <workItem from="1587194056435" duration="5441000" />
+      <workItem from="1587316382154" duration="624000" />
+      <workItem from="1587327707843" duration="477000" />
+      <workItem from="1587495278443" duration="288000" />
+      <workItem from="1587597912821" duration="937000" />
+      <workItem from="1588898197843" duration="51000" />
+      <workItem from="1588898279647" duration="611000" />
+    </task>
+    <task id="LOCAL-00001" summary="Submission of Project 2">
+      <created>1587598475065</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587598475066</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Submission of Project 2 - bugs fixed">
+      <created>1587598646924</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587598646924</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="51612000" />
+  </component>
+  <component name="TodoView" selected-index="4">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="30" width="1366" height="738" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24944155" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289256" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50111693" side_tool="true" weight="0.80991733" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3289256" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.4988831" visible="true" weight="0.353719" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24944155" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3289256" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.41652894" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.inc" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Submission of Project 2" />
+    <MESSAGE value="Submission of Project 2 - bugs fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Submission of Project 2 - bugs fixed" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/kern/lib/pmap.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-270" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kern/lib/pmap.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kern/lib/thread.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kern/thread/PThread/import.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kern/lib/seg.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1245">
+          <caret line="83" column="17" selection-start-line="83" selection-start-column="17" selection-end-line="83" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kern/proc/PProc/import.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kern/lib/seg.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="133" column="17" selection-start-line="133" selection-start-column="17" selection-end-line="133" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kern/trap/TSyscall/Makefile.inc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kern/lib/syscall.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="46" column="18" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kern/trap/TSyscall/import.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kern/trap/TSyscallArg/import.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kern/trap/TDispatch/import.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kern/trap/TTrapHandler/import.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kern/thread/PTCBIntro/PTCBIntro.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-421">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kern/thread/PThread/test.c">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kern/dev/mboot.c">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/lib/fake_syscall.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kern/thread/PCurID/PCurID.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kern/thread/PKCtxIntro/PKCtxIntro.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kern/lib/monitor.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="48" column="26" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kern/proc/PUCtxIntro/Makefile.inc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kern/proc/PUCtxIntro/PUCtxIntro.c">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/pingpong/pong.c">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/pingpong/ping.c">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kern/thread/Makefile.inc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/obj/kern/kernel.asm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="12618" column="22" selection-start-line="12618" selection-start-column="22" selection-end-line="12618" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/obj/user/idle/idle.asm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="2094" column="17" selection-start-line="2094" selection-start-column="17" selection-end-line="2094" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/include/types.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/include/proc.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="35" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/idle/idle.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="51" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/pingpong/ding.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/lib/proc.c">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kern/thread/PKCtxIntro/export.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kern/thread/PTQueueInit/test.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="56" column="36" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kern/lib/trap.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="24" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kern/lib/x86.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kern/pmm/MATInit/MATInit.c">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kern/thread/PKCtxIntro/cswitch.S">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-395">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kern/thread/PKCtxNew/PKCtxNew.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kern/dev/idt.S">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="136" column="22" selection-start-line="136" selection-start-column="22" selection-end-line="136" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kern/proc/PProc/PProc.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kern/thread/PTCBInit/PTCBInit.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kern/thread/PThread/PThread.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kern/thread/PTQueueInit/PTQueueInit.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kern/trap/TDispatch/TDispatch.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kern/trap/Makefile.inc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kern/trap/TTrapHandler/TTrapHandler.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2550">
+          <caret line="170" column="5" selection-start-line="170" selection-start-column="5" selection-end-line="170" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/include/syscall.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kern/trap/TSyscall/TSyscall.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1305">
+          <caret line="87" column="6" selection-start-line="87" selection-start-column="6" selection-end-line="87" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor relative-caret-position="210">
+            <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kern/trap/TSyscallArg/TSyscallArg.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
